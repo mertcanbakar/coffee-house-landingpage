@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 100%;
+  background-color: #2f1f15;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  gap: 50px;
+}
+header img{
+  width: 150px;
+  margin-left: -150px;
+}
+header nav{
+  padding: 10px 10px;
+  background-color: #704336;
+  border-radius: 15px;
+  display: flex;
+  gap: 35px;
+}
+header nav a{
+  height: 100%;
+  text-decoration: none;
+  color: #dcdada;
+  font-family: 'Exo 2', sans-serif;
+}
+.active{
+  color: #fff;
+}
+.message{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.messages{
+  width: 50%;
+}
+.img{
+  width: 20%;
+  min-width: 250px
+}
+.img img{
+  width: 100%;
+}
+.message h1{
+  font-size: 50px;
+  color: #dcdada;
+  font-family: 'Indie Flower', cursive;
+}
+.message h2{
+  margin-top: -15px;
+  font-size: 28px;
+  color: #dcdada;
+  font-family: 'Satisfy', cursive;
+}
+.content{
+  width: 100%;
+  background-color: #dcbca0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.content-img{
+  min-width: 250px;
+  width: 15%;
+  padding: 25px;
+}
+.content-img img{
+  width: 100%;
+  border: 2px solid #2f1f15;
+  border-radius: 25px;
+}
+.content-message{
+  width: 35%;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.content-message h1{
+  color: #2f1f15;
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 44px;
+}
+.content-message h3{
+  margin-top: -5px;
+  margin-bottom: 25px;
+  color: #2f1f15;
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 24px;
+}
+.content-message p{
+  color: #2f1f15;
+  font-family: 'Asap Condensed', sans-serif;
+  margin: 10px 0;
+}
+.content-message button{
+  margin-top: 15px;
+  padding: 10px 30px;
+  background-color: #2f1f15;
+  color: #dcdada;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+.content-message button:hover{
+  color: #2f1f15;
+  background-color: #d49584;
+  transition: all 300ms;
+}
+.reviews{
+  width: 100%;
+  background-color: #645546;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.reviews-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.reviews-header h1{
+  color: #dcdada;
+  font-family: 'Asap Condensed', sans-serif;
+}
+.reviews-header h2{
+  color: #dcdada;
+  font-family: 'Asap Condensed', sans-serif;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.reviews-comments{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comments{
+  height: 100px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+  background-color: #dcbca0;
+  margin: 15px 35px;
+  border-radius: 15px;
+}
+.comment{
+  color: #2f1f15;
+  margin-bottom: 10px;
+  font-family: 'Asap Condensed', sans-serif;
+}
+.author{
+  color: #645546;
+  font-family: 'Asap Condensed', sans-serif;
+}
+.contact-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f1f15;
+}
+.contact-us{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction:column ;
+  margin: 35px;
+}
+.contact-header{
+  color: #dcdada;
+  font-family: 'Asap Condensed', sans-serif;
+}
+.contact-p{
+  color: #dcdada;
+  font-family: 'Asap Condensed', sans-serif;
+  opacity: .7;
+  margin-bottom: 15px;
+}
+.text{
+  padding: 5px;
+  width: 150px;
+  margin: 5px 0;
+  outline: none;
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 15px;
+}
+.message-text{
+  padding: 5px;
+  width: 175px;
+  height: 100px;
+  outline: none;
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  resize: none;
+}
+.contact-us button{
+  padding: 5px 20px;
+  background-color: #dcbca0;
+  border: none;
+  margin-bottom: 25px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.contacts{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 35px;
+}
+.contacts img{
+  width: 200px;
+  margin-bottom: 30px;
+}
+.contacts p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  text-align: center;
+  color: #dcdada;
+
+}
+.icons{
+  margin-right: 15px;
+  font-size: 20px;
+  font-family: 'Asap Condensed', sans-serif;
+}
+.footer{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dcbca0;
+  color: #2f1f15;
+  font-family: 'Asap Condensed', sans-serif;
+}

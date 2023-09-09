@@ -1,0 +1,97 @@
+
+  /* Mobil boyutunda (örneğin 480px) değişiklikler */
+  @media (max-width: 480px) {
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav{
+        display: none;
+    }
+    header img{
+        width: 40%;
+        margin: 0;
+    }
+    .messages{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .message h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+  
+    .message h2 {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .content-img {
+      width: 100%;
+      min-width: 0;
+    }
+  
+    .content-message {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  
+    .content-message h1 {
+      font-size: 24px;
+    }
+  
+    .content-message h3 {
+      font-size: 16px;
+    }
+  
+    .content-message p {
+      font-size: 14px;
+    }
+  
+    .content-message button {
+      padding: 6px 16px;
+      font-size: 14px;
+    }
+  
+    .reviews-header h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .reviews-header h2 {
+      font-size: 14px;
+    }
+    .reviews-comments{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+  
+    .comments {
+        width: 75%;
+      margin: 10px 0;
+    }
+    .contact-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .contact-us, .contacts{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  
